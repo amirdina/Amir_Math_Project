@@ -2,9 +2,6 @@ import streamlit as st
 import random
 import json
 from pathlib import Path
-import random
-import json
-from pathlib import Path
 
 # ─────────────────────────────────────────
 #  Konfigurasi Halaman
@@ -222,11 +219,11 @@ st.markdown("""
   div.stButton > button {
     width: 100%;
     font-family: 'Fredoka One', sans-serif !important;
-    font-size: 6.5em !important;
+    font-size: 80px !important;
     line-height: 1.1 !important;
     font-weight: 900 !important;
-    padding: 50px 16px !important;
-    min-height: 170px !important;
+    padding: 30px 16px !important;
+    min-height: 150px !important;
     border-radius: 16px !important;
     border: none !important;
     color: #ffffff !important;
