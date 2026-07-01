@@ -191,11 +191,20 @@ st.markdown("""
     border: 1px solid rgba(0, 180, 255, 0.1);
     pointer-events: none;
   }
+  
+  /* 💡 PEMBETULAN UTAMA: MEMAKSA WARNA TEKS SOALAN ATAS LEBIH JELAS & TERANG 💡 */
   .emoji-soalan {
-    font-size: 3.0em;
-    letter-spacing: 3px;
-    line-height: 1.8;
+    font-family: 'Fredoka One', 'Nunito', sans-serif !important;
+    font-size: 2.2em;
+    color: #ffffff !important; /* Memaksa warna tulisan putih cerah */
+    /* Garis sempadan hitam (Roblox Stroke effect) untuk keterbacaan maksimum */
+    text-shadow: 
+      2.5px 2.5px 0px #000000, 
+      0px 0px 8px rgba(0, 0, 0, 0.8);
+    letter-spacing: 1.5px;
+    line-height: 1.5;
   }
+  
   .nombor-soalan {
     font-family: 'Fredoka One', sans-serif;
     font-size: 4.0em;
@@ -253,7 +262,7 @@ st.markdown("""
       0 5px 10px rgba(0,0,0,0.3) !important;
   }
 
-  /* 💡 PEMBETULAN UTAMA: MEMAKSA SAIZ FONT BUTTON YANG LEBIH BESAR & JELAS */
+  /* PEMBETULAN UTAMA: MEMAKSA SAIZ FONT BUTTON YANG LEBIH BESAR & JELAS */
   /* Kita sasarkan terus tag paragraf (p) dan span di dalam butang Streamlit */
   div.stButton > button p, 
   div.stButton > button span,
