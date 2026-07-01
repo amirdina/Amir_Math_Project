@@ -1,0 +1,804 @@
+{
+  "soalan": [
+    {
+      "id": 1,
+      "kategori": "tambah",
+      "soalan": "2 + 3 = ?",
+      "emoji": "🍎🍎  +  🍎🍎🍎",
+      "jawapan": 5,
+      "pilihan": [3, 4, 5, 6]
+    },
+    {
+      "id": 2,
+      "kategori": "tambah",
+      "soalan": "1 + 6 = ?",
+      "emoji": "🐥  +  🐥🐥🐥🐥🐥🐥",
+      "jawapan": 7,
+      "pilihan": [5, 6, 7, 8]
+    },
+    {
+      "id": 3,
+      "kategori": "tambah",
+      "soalan": "4 + 3 = ?",
+      "emoji": "🌸🌸🌸🌸  +  🌸🌸🌸",
+      "jawapan": 7,
+      "pilihan": [5, 6, 7, 8]
+    },
+    {
+      "id": 4,
+      "kategori": "tambah",
+      "soalan": "3 + 5 = ?",
+      "emoji": "⭐⭐⭐  +  ⭐⭐⭐⭐⭐",
+      "jawapan": 8,
+      "pilihan": [6, 7, 8, 9]
+    },
+    {
+      "id": 5,
+      "kategori": "tambah",
+      "soalan": "4 + 5 = ?",
+      "emoji": "🍌🍌🍌🍌  +  🍌🍌🍌🍌🍌",
+      "jawapan": 9,
+      "pilihan": [7, 8, 9, 10]
+    },
+    {
+      "id": 6,
+      "kategori": "tambah",
+      "soalan": "5 + 3 = ?",
+      "emoji": "🍎🍎🍎🍎🍎  +  🍎🍎🍎",
+      "jawapan": 8,
+      "pilihan": [6, 7, 8, 9]
+    },
+    {
+      "id": 7,
+      "kategori": "tambah",
+      "soalan": "7 + 4 = ?",
+      "emoji": "🐠🐠🐠🐠🐠🐠🐠  +  🐠🐠🐠🐠",
+      "jawapan": 11,
+      "pilihan": [9, 10, 11, 12]
+    },
+    {
+      "id": 8,
+      "kategori": "tambah",
+      "soalan": "6 + 5 = ?",
+      "emoji": "🌈🌈🌈🌈🌈🌈  +  🌈🌈🌈🌈🌈",
+      "jawapan": 11,
+      "pilihan": [9, 10, 11, 12]
+    },
+    {
+      "id": 9,
+      "kategori": "tambah",
+      "soalan": "8 + 4 = ?",
+      "emoji": "🚀🚀🚀🚀🚀🚀🚀🚀  +  🚀🚀🚀🚀",
+      "jawapan": 12,
+      "pilihan": [10, 11, 12, 13]
+    },
+    {
+      "id": 10,
+      "kategori": "tambah",
+      "soalan": "7 + 6 = ?",
+      "emoji": "🐥🐥🐥🐥🐥🐥🐥  +  🐥🐥🐥🐥🐥🐥",
+      "jawapan": 13,
+      "pilihan": [11, 12, 13, 14]
+    },
+    {
+      "id": 11,
+      "kategori": "tambah",
+      "soalan": "8 + 5 = ?",
+      "emoji": "🍭🍭🍭🍭🍭🍭🍭🍭  +  🍭🍭🍭🍭🍭",
+      "jawapan": 13,
+      "pilihan": [11, 12, 13, 14]
+    },
+    {
+      "id": 12,
+      "kategori": "tambah",
+      "soalan": "9 + 5 = ?",
+      "emoji": "🦋🦋🦋🦋🦋🦋🦋🦋🦋  +  🦋🦋🦋🦋🦋",
+      "jawapan": 14,
+      "pilihan": [12, 13, 14, 15]
+    },
+    {
+      "id": 13,
+      "kategori": "tambah",
+      "soalan": "6 + 9 = ?",
+      "emoji": "🌟🌟🌟🌟🌟🌟  +  🌟🌟🌟🌟🌟🌟🌟🌟🌟",
+      "jawapan": 15,
+      "pilihan": [13, 14, 15, 16]
+    },
+    {
+      "id": 14,
+      "kategori": "tambah",
+      "soalan": "7 + 8 = ?",
+      "emoji": "🎈🎈🎈🎈🎈🎈🎈  +  🎈🎈🎈🎈🎈🎈🎈🎈",
+      "jawapan": 15,
+      "pilihan": [13, 14, 15, 16]
+    },
+    {
+      "id": 15,
+      "kategori": "tambah",
+      "soalan": "9 + 7 = ?",
+      "emoji": "🍦🍦🍦🍦🍦🍦🍦🍦🍦  +  🍦🍦🍦🍦🍦🍦🍦",
+      "jawapan": 16,
+      "pilihan": [14, 15, 16, 17]
+    },
+    {
+      "id": 16,
+      "kategori": "tambah",
+      "soalan": "8 + 8 = ?",
+      "emoji": "⭐⭐⭐⭐⭐⭐⭐⭐  +  ⭐⭐⭐⭐⭐⭐⭐⭐",
+      "jawapan": 16,
+      "pilihan": [14, 15, 16, 17]
+    },
+    {
+      "id": 17,
+      "kategori": "tambah",
+      "soalan": "9 + 8 = ?",
+      "emoji": "🚀🚀🚀🚀🚀🚀🚀🚀🚀  +  🚀🚀🚀🚀🚀🚀🚀🚀",
+      "jawapan": 17,
+      "pilihan": [15, 16, 17, 18]
+    },
+    {
+      "id": 18,
+      "kategori": "tambah",
+      "soalan": "9 + 9 = ?",
+      "emoji": "🌸🌸🌸🌸🌸🌸🌸🌸🌸  +  🌸🌸🌸🌸🌸🌸🌸🌸🌸",
+      "jawapan": 18,
+      "pilihan": [16, 17, 18, 19]
+    },
+    {
+      "id": 19,
+      "kategori": "tambah",
+      "soalan": "9 + 10 = ?",
+      "emoji": "🐠🐠🐠🐠🐠🐠🐠🐠🐠  +  🐠🐠🐠🐠🐠🐠🐠🐠🐠🐠",
+      "jawapan": 19,
+      "pilihan": [17, 18, 19, 20]
+    },
+    {
+      "id": 20,
+      "kategori": "tambah",
+      "soalan": "10 + 10 = ?",
+      "emoji": "🍎 10 biji  +  🍎 10 biji",
+      "jawapan": 20,
+      "pilihan": [18, 19, 20, 21]
+    },
+    {
+      "id": 21,
+      "kategori": "tambah",
+      "soalan": "12 + 8 = ?",
+      "emoji": "🌟 12 bintang  +  🌟 8 bintang",
+      "jawapan": 20,
+      "pilihan": [18, 19, 20, 21]
+    },
+    {
+      "id": 22,
+      "kategori": "tambah",
+      "soalan": "15 + 10 = ?",
+      "emoji": "🍭 15 gula-gula  +  🍭 10 gula-gula",
+      "jawapan": 25,
+      "pilihan": [23, 24, 25, 26]
+    },
+    {
+      "id": 23,
+      "kategori": "tambah",
+      "soalan": "18 + 12 = ?",
+      "emoji": "🐥 18 anak ayam  +  🐥 12 anak ayam",
+      "jawapan": 30,
+      "pilihan": [28, 29, 30, 31]
+    },
+    {
+      "id": 24,
+      "kategori": "tambah",
+      "soalan": "20 + 15 = ?",
+      "emoji": "🍎 20 epal  +  🍎 15 epal",
+      "jawapan": 35,
+      "pilihan": [33, 34, 35, 36]
+    },
+    {
+      "id": 25,
+      "kategori": "tambah",
+      "soalan": "25 + 10 = ?",
+      "emoji": "⭐ 25 bintang  +  ⭐ 10 bintang",
+      "jawapan": 35,
+      "pilihan": [33, 34, 35, 36]
+    },
+    {
+      "id": 26,
+      "kategori": "tambah",
+      "soalan": "22 + 18 = ?",
+      "emoji": "🌸 22 bunga  +  🌸 18 bunga",
+      "jawapan": 40,
+      "pilihan": [38, 39, 40, 41]
+    },
+    {
+      "id": 27,
+      "kategori": "tambah",
+      "soalan": "30 + 15 = ?",
+      "emoji": "🐠 30 ikan  +  🐠 15 ikan",
+      "jawapan": 45,
+      "pilihan": [43, 44, 45, 46]
+    },
+    {
+      "id": 28,
+      "kategori": "tambah",
+      "soalan": "25 + 20 = ?",
+      "emoji": "🎈 25 belon  +  🎈 20 belon",
+      "jawapan": 45,
+      "pilihan": [43, 44, 45, 46]
+    },
+    {
+      "id": 29,
+      "kategori": "tambah",
+      "soalan": "35 + 15 = ?",
+      "emoji": "🚀 35 roket  +  🚀 15 roket",
+      "jawapan": 50,
+      "pilihan": [48, 49, 50, 51]
+    },
+    {
+      "id": 30,
+      "kategori": "tambah",
+      "soalan": "30 + 20 = ?",
+      "emoji": "🍌 30 pisang  +  🍌 20 pisang",
+      "jawapan": 50,
+      "pilihan": [48, 49, 50, 51]
+    },
+    {
+      "id": 31,
+      "kategori": "tambah",
+      "soalan": "40 + 30 = ?",
+      "emoji": "🌟 40 bintang  +  🌟 30 bintang",
+      "jawapan": 70,
+      "pilihan": [68, 69, 70, 71]
+    },
+    {
+      "id": 32,
+      "kategori": "tambah",
+      "soalan": "55 + 25 = ?",
+      "emoji": "🍎 55 epal  +  🍎 25 epal",
+      "jawapan": 80,
+      "pilihan": [78, 79, 80, 81]
+    },
+    {
+      "id": 33,
+      "kategori": "tambah",
+      "soalan": "45 + 45 = ?",
+      "emoji": "⭐ 45 bintang  +  ⭐ 45 bintang",
+      "jawapan": 90,
+      "pilihan": [88, 89, 90, 91]
+    },
+    {
+      "id": 34,
+      "kategori": "tambah",
+      "soalan": "65 + 30 = ?",
+      "emoji": "🎈 65 belon  +  🎈 30 belon",
+      "jawapan": 95,
+      "pilihan": [93, 94, 95, 96]
+    },
+    {
+      "id": 35,
+      "kategori": "tambah",
+      "soalan": "50 + 50 = ?",
+      "emoji": "🚀 50 roket  +  🚀 50 roket",
+      "jawapan": 100,
+      "pilihan": [97, 98, 99, 100]
+    },
+    {
+      "id": 36,
+      "kategori": "tolak",
+      "soalan": "5 - 2 = ?",
+      "emoji": "🍎🍎🍎🍎🍎  −  🍎🍎",
+      "jawapan": 3,
+      "pilihan": [1, 2, 3, 4]
+    },
+    {
+      "id": 37,
+      "kategori": "tolak",
+      "soalan": "7 - 3 = ?",
+      "emoji": "⭐⭐⭐⭐⭐⭐⭐  −  ⭐⭐⭐",
+      "jawapan": 4,
+      "pilihan": [2, 3, 4, 5]
+    },
+    {
+      "id": 38,
+      "kategori": "tolak",
+      "soalan": "8 - 4 = ?",
+      "emoji": "🌸🌸🌸🌸🌸🌸🌸🌸  −  🌸🌸🌸🌸",
+      "jawapan": 4,
+      "pilihan": [2, 3, 4, 5]
+    },
+    {
+      "id": 39,
+      "kategori": "tolak",
+      "soalan": "9 - 5 = ?",
+      "emoji": "🐥🐥🐥🐥🐥🐥🐥🐥🐥  −  🐥🐥🐥🐥🐥",
+      "jawapan": 4,
+      "pilihan": [2, 3, 4, 6]
+    },
+    {
+      "id": 40,
+      "kategori": "tolak",
+      "soalan": "10 - 6 = ?",
+      "emoji": "🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌  −  🍌🍌🍌🍌🍌🍌",
+      "jawapan": 4,
+      "pilihan": [2, 3, 4, 5]
+    },
+    {
+      "id": 41,
+      "kategori": "tolak",
+      "soalan": "10 - 4 = ?",
+      "emoji": "🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟  −  🌟🌟🌟🌟",
+      "jawapan": 6,
+      "pilihan": [4, 5, 6, 7]
+    },
+    {
+      "id": 42,
+      "kategori": "tolak",
+      "soalan": "12 - 5 = ?",
+      "emoji": "🦋🦋🦋🦋🦋🦋🦋🦋🦋🦋🦋🦋  −  🦋🦋🦋🦋🦋",
+      "jawapan": 7,
+      "pilihan": [5, 6, 7, 8]
+    },
+    {
+      "id": 43,
+      "kategori": "tolak",
+      "soalan": "13 - 6 = ?",
+      "emoji": "🍭 13 gula-gula  −  🍭 6 gula-gula",
+      "jawapan": 7,
+      "pilihan": [5, 6, 7, 8]
+    },
+    {
+      "id": 44,
+      "kategori": "tolak",
+      "soalan": "14 - 7 = ?",
+      "emoji": "🐠 14 ikan  −  🐠 7 ikan",
+      "jawapan": 7,
+      "pilihan": [5, 6, 7, 8]
+    },
+    {
+      "id": 45,
+      "kategori": "tolak",
+      "soalan": "15 - 8 = ?",
+      "emoji": "🍭🍭🍭🍭🍭🍭🍭🍭🍭🍭🍭🍭🍭🍭🍭  −  🍭🍭🍭🍭🍭🍭🍭🍭",
+      "jawapan": 7,
+      "pilihan": [5, 6, 7, 9]
+    },
+    {
+      "id": 46,
+      "kategori": "tolak",
+      "soalan": "16 - 8 = ?",
+      "emoji": "🎈 16 belon  −  🎈 8 belon",
+      "jawapan": 8,
+      "pilihan": [6, 7, 8, 9]
+    },
+    {
+      "id": 47,
+      "kategori": "tolak",
+      "soalan": "17 - 9 = ?",
+      "emoji": "🌸 17 bunga  −  🌸 9 bunga",
+      "jawapan": 8,
+      "pilihan": [6, 7, 8, 9]
+    },
+    {
+      "id": 48,
+      "kategori": "tolak",
+      "soalan": "18 - 9 = ?",
+      "emoji": "🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈  −  🎈🎈🎈🎈🎈🎈🎈🎈🎈",
+      "jawapan": 9,
+      "pilihan": [7, 8, 9, 10]
+    },
+    {
+      "id": 49,
+      "kategori": "tolak",
+      "soalan": "20 - 8 = ?",
+      "emoji": "⭐ 20 bintang  −  ⭐ 8 bintang",
+      "jawapan": 12,
+      "pilihan": [10, 11, 12, 13]
+    },
+    {
+      "id": 50,
+      "kategori": "tolak",
+      "soalan": "19 - 7 = ?",
+      "emoji": "🍎 19 epal  −  🍎 7 epal",
+      "jawapan": 12,
+      "pilihan": [10, 11, 12, 13]
+    },
+    {
+      "id": 51,
+      "kategori": "tolak",
+      "soalan": "20 - 6 = ?",
+      "emoji": "🚀 20 roket  −  🚀 6 roket",
+      "jawapan": 14,
+      "pilihan": [12, 13, 14, 15]
+    },
+    {
+      "id": 52,
+      "kategori": "tolak",
+      "soalan": "18 - 5 = ?",
+      "emoji": "🌟 18 bintang  −  🌟 5 bintang",
+      "jawapan": 13,
+      "pilihan": [11, 12, 13, 14]
+    },
+    {
+      "id": 53,
+      "kategori": "tolak",
+      "soalan": "17 - 4 = ?",
+      "emoji": "🐥 17 anak ayam  −  🐥 4 anak ayam",
+      "jawapan": 13,
+      "pilihan": [11, 12, 13, 14]
+    },
+    {
+      "id": 54,
+      "kategori": "tolak",
+      "soalan": "20 - 5 = ?",
+      "emoji": "🍌 20 pisang  −  🍌 5 pisang",
+      "jawapan": 15,
+      "pilihan": [13, 14, 15, 16]
+    },
+    {
+      "id": 55,
+      "kategori": "tolak",
+      "soalan": "19 - 4 = ?",
+      "emoji": "🦋 19 rama-rama  −  🦋 4 rama-rama",
+      "jawapan": 15,
+      "pilihan": [13, 14, 15, 16]
+    },
+    {
+      "id": 56,
+      "kategori": "tolak",
+      "soalan": "25 - 10 = ?",
+      "emoji": "🍎 25 epal  −  🍎 10 epal",
+      "jawapan": 15,
+      "pilihan": [13, 14, 15, 16]
+    },
+    {
+      "id": 57,
+      "kategori": "tolak",
+      "soalan": "30 - 12 = ?",
+      "emoji": "⭐ 30 bintang  −  ⭐ 12 bintang",
+      "jawapan": 18,
+      "pilihan": [16, 17, 18, 19]
+    },
+    {
+      "id": 58,
+      "kategori": "tolak",
+      "soalan": "35 - 15 = ?",
+      "emoji": "🌸 35 bunga  −  🌸 15 bunga",
+      "jawapan": 20,
+      "pilihan": [18, 19, 20, 21]
+    },
+    {
+      "id": 59,
+      "kategori": "tolak",
+      "soalan": "40 - 18 = ?",
+      "emoji": "🎈 40 belon  −  🎈 18 belon",
+      "jawapan": 22,
+      "pilihan": [20, 21, 22, 23]
+    },
+    {
+      "id": 60,
+      "kategori": "tolak",
+      "soalan": "45 - 20 = ?",
+      "emoji": "🐠 45 ikan  −  🐠 20 ikan",
+      "jawapan": 25,
+      "pilihan": [23, 24, 25, 26]
+    },
+    {
+      "id": 61,
+      "kategori": "tolak",
+      "soalan": "50 - 22 = ?",
+      "emoji": "🚀 50 roket  −  🚀 22 roket",
+      "jawapan": 28,
+      "pilihan": [26, 27, 28, 29]
+    },
+    {
+      "id": 62,
+      "kategori": "tolak",
+      "soalan": "48 - 18 = ?",
+      "emoji": "🍭 48 gula-gula  −  🍭 18 gula-gula",
+      "jawapan": 30,
+      "pilihan": [28, 29, 30, 31]
+    },
+    {
+      "id": 63,
+      "kategori": "tolak",
+      "soalan": "44 - 14 = ?",
+      "emoji": "🌟 44 bintang  −  🌟 14 bintang",
+      "jawapan": 30,
+      "pilihan": [28, 29, 30, 31]
+    },
+    {
+      "id": 64,
+      "kategori": "tolak",
+      "soalan": "50 - 15 = ?",
+      "emoji": "🍌 50 pisang  −  🍌 15 pisang",
+      "jawapan": 35,
+      "pilihan": [33, 34, 35, 36]
+    },
+    {
+      "id": 65,
+      "kategori": "tolak",
+      "soalan": "50 - 10 = ?",
+      "emoji": "🐥 50 anak ayam  −  🐥 10 anak ayam",
+      "jawapan": 40,
+      "pilihan": [38, 39, 40, 41]
+    },
+    {
+      "id": 66,
+      "kategori": "tolak",
+      "soalan": "70 - 30 = ?",
+      "emoji": "⭐ 70 bintang  −  ⭐ 30 bintang",
+      "jawapan": 40,
+      "pilihan": [38, 39, 40, 41]
+    },
+    {
+      "id": 67,
+      "kategori": "tolak",
+      "soalan": "80 - 35 = ?",
+      "emoji": "🎈 80 belon  −  🎈 35 belon",
+      "jawapan": 45,
+      "pilihan": [43, 44, 45, 46]
+    },
+    {
+      "id": 68,
+      "kategori": "tolak",
+      "soalan": "90 - 40 = ?",
+      "emoji": "🌸 90 bunga  −  🌸 40 bunga",
+      "jawapan": 50,
+      "pilihan": [48, 49, 50, 51]
+    },
+    {
+      "id": 69,
+      "kategori": "tolak",
+      "soalan": "100 - 35 = ?",
+      "emoji": "🍎 100 epal  −  🍎 35 epal",
+      "jawapan": 65,
+      "pilihan": [63, 64, 65, 66]
+    },
+    {
+      "id": 70,
+      "kategori": "tolak",
+      "soalan": "100 - 50 = ?",
+      "emoji": "🚀 100 roket  −  🚀 50 roket",
+      "jawapan": 50,
+      "pilihan": [48, 49, 50, 51]
+    },
+    {
+      "id": 71,
+      "kategori": "wang",
+      "soalan": "Amir ada RM5. Dia beli gula-gula RM2. Baki duit Amir = ?",
+      "emoji": "💰 RM5  −  🍬 RM2",
+      "jawapan": 3,
+      "pilihan": [1, 2, 3, 4]
+    },
+    {
+      "id": 72,
+      "kategori": "wang",
+      "soalan": "Harga sebiji epal RM3. Harga sebiji oren RM4. Jumlah = ?",
+      "emoji": "🍎 RM3  +  🍊 RM4",
+      "jawapan": 7,
+      "pilihan": [5, 6, 7, 8]
+    },
+    {
+      "id": 73,
+      "kategori": "wang",
+      "soalan": "Ibu bagi Amir RM10. Amir belanja RM6. Baki = ?",
+      "emoji": "💵 RM10  −  🛒 RM6",
+      "jawapan": 4,
+      "pilihan": [2, 3, 4, 5]
+    },
+    {
+      "id": 74,
+      "kategori": "wang",
+      "soalan": "Sebiji roti RM2. Amir beli 3 biji. Jumlah bayar = ?",
+      "emoji": "🍞 RM2  x  3 biji",
+      "jawapan": 6,
+      "pilihan": [4, 5, 6, 7]
+    },
+    {
+      "id": 75,
+      "kategori": "wang",
+      "soalan": "Amir ada RM8. Adik ada RM5. Jumlah duit mereka = ?",
+      "emoji": "👦 RM8  +  👧 RM5",
+      "jawapan": 13,
+      "pilihan": [11, 12, 13, 14]
+    },
+    {
+      "id": 76,
+      "kategori": "wang",
+      "soalan": "Harga pensil RM1. Harga buku RM9. Jumlah = ?",
+      "emoji": "✏️ RM1  +  📒 RM9",
+      "jawapan": 10,
+      "pilihan": [8, 9, 10, 11]
+    },
+    {
+      "id": 77,
+      "kategori": "wang",
+      "soalan": "Amir ada RM20. Dia beli kasut RM15. Baki = ?",
+      "emoji": "💰 RM20  −  💟 RM15",
+      "jawapan": 5,
+      "pilihan": [3, 4, 5, 6]
+    },
+    {
+      "id": 78,
+      "kategori": "wang",
+      "soalan": "Harga coklat RM4. Amir beli 2 biji. Jumlah = ?",
+      "emoji": "🍫 RM4  x  2 biji",
+      "jawapan": 8,
+      "pilihan": [6, 7, 8, 9]
+    },
+    {
+      "id": 79,
+      "kategori": "wang",
+      "soalan": "Amir ada RM15. Beli mainan RM8. Baki = ?",
+      "emoji": "💰 RM15  −  🧸 RM8",
+      "jawapan": 7,
+      "pilihan": [5, 6, 7, 8]
+    },
+    {
+      "id": 80,
+      "kategori": "wang",
+      "soalan": "Harga burger RM5. Harga minuman RM3. Jumlah = ?",
+      "emoji": "🍔 RM5  +  🥤 RM3",
+      "jawapan": 8,
+      "pilihan": [6, 7, 8, 9]
+    },
+    {
+      "id": 81,
+      "kategori": "wang",
+      "soalan": "Tiket wayang RM12. Amir bayar RM20. Baki duit = ?",
+      "emoji": "🎬 RM12  −  💵 RM20",
+      "jawapan": 8,
+      "pilihan": [6, 7, 8, 9]
+    },
+    {
+      "id": 82,
+      "kategori": "wang",
+      "soalan": "Harga bola RM25. Amir ada RM30. Baki selepas beli = ?",
+      "emoji": "⚽ RM25  −  💰 RM30",
+      "jawapan": 5,
+      "pilihan": [3, 4, 5, 6]
+    },
+    {
+      "id": 83,
+      "kategori": "wang",
+      "soalan": "Sekolah jual buku RM6. Amir beli 3 buah. Jumlah = ?",
+      "emoji": "📚 RM6  x  3 buah",
+      "jawapan": 18,
+      "pilihan": [16, 17, 18, 19]
+    },
+    {
+      "id": 84,
+      "kategori": "wang",
+      "soalan": "Ibu beli sayur RM7 dan ikan RM13. Jumlah belanja = ?",
+      "emoji": "🥦 RM7  +  🐟 RM13",
+      "jawapan": 20,
+      "pilihan": [18, 19, 20, 21]
+    },
+    {
+      "id": 85,
+      "kategori": "wang",
+      "soalan": "Abang ada RM40. Beli kasut RM28. Baki = ?",
+      "emoji": "💰 RM40  −  💟 RM28",
+      "jawapan": 12,
+      "pilihan": [10, 11, 12, 13]
+    },
+    {
+      "id": 86,
+      "kategori": "wang",
+      "soalan": "Harga pen RM3. Amir beli 4 batang. Jumlah = ?",
+      "emoji": "🖊️ RM3  x  4 batang",
+      "jawapan": 12,
+      "pilihan": [10, 11, 12, 13]
+    },
+    {
+      "id": 87,
+      "kategori": "wang",
+      "soalan": "Ibu bagi RM30. Amir beli baju RM22. Baki = ?",
+      "emoji": "💵 RM30  −  👕 RM22",
+      "jawapan": 8,
+      "pilihan": [6, 7, 8, 9]
+    },
+    {
+      "id": 88,
+      "kategori": "wang",
+      "soalan": "Amir kumpul RM10 seminggu. Dalam 3 minggu, jumlah = ?",
+      "emoji": "💰 RM10  x  3 minggu",
+      "jawapan": 30,
+      "pilihan": [28, 29, 30, 31]
+    },
+    {
+      "id": 89,
+      "kategori": "wang",
+      "soalan": "Harga stokin RM8. Amir beli 2 pasang. Jumlah = ?",
+      "emoji": "🧦 RM8  x  2 pasang",
+      "jawapan": 16,
+      "pilihan": [14, 15, 16, 17]
+    },
+    {
+      "id": 90,
+      "kategori": "wang",
+      "soalan": "Amir ada RM35. Beli beg sekolah RM20. Baki = ?",
+      "emoji": "🎒 RM20  −  💰 RM35",
+      "jawapan": 15,
+      "pilihan": [13, 14, 15, 16]
+    },
+    {
+      "id": 91,
+      "kategori": "wang",
+      "soalan": "Nenek bagi RM50. Sepupu bagi RM25. Jumlah = ?",
+      "emoji": "👵 RM50  +  🧒 RM25",
+      "jawapan": 75,
+      "pilihan": [73, 74, 75, 76]
+    },
+    {
+      "id": 92,
+      "kategori": "wang",
+      "soalan": "Harga kasut RM45. Harga baju RM30. Jumlah = ?",
+      "emoji": "💟 RM45  +  👕 RM30",
+      "jawapan": 75,
+      "pilihan": [73, 74, 75, 76]
+    },
+    {
+      "id": 93,
+      "kategori": "wang",
+      "soalan": "Amir ada RM60. Beli set alat tulis RM35. Baki = ?",
+      "emoji": "💰 RM60  −  ✏️ RM35",
+      "jawapan": 25,
+      "pilihan": [23, 24, 25, 26]
+    },
+    {
+      "id": 94,
+      "kategori": "wang",
+      "soalan": "Ayah bagi RM80. Beli alat tulis RM55. Baki = ?",
+      "emoji": "👨 RM80  −  🛒 RM55",
+      "jawapan": 25,
+      "pilihan": [23, 24, 25, 26]
+    },
+    {
+      "id": 95,
+      "kategori": "wang",
+      "soalan": "Harga roti RM4. Amir beli 5 biji. Jumlah = ?",
+      "emoji": "🍞 RM4  x  5 biji",
+      "jawapan": 20,
+      "pilihan": [18, 19, 20, 21]
+    },
+    {
+      "id": 96,
+      "kategori": "wang",
+      "soalan": "Harga minuman RM2. Amir beli 6 botol. Jumlah = ?",
+      "emoji": "🥤 RM2  x  6 botol",
+      "jawapan": 12,
+      "pilihan": [10, 11, 12, 13]
+    },
+    {
+      "id": 97,
+      "kategori": "wang",
+      "soalan": "Ibu ada RM90. Beli barang dapur RM65. Baki = ?",
+      "emoji": "🛒 RM65  −  💰 RM90",
+      "jawapan": 25,
+      "pilihan": [23, 24, 25, 26]
+    },
+    {
+      "id": 98,
+      "kategori": "wang",
+      "soalan": "Amir ada RM100. Beli hadiah RM35. Baki = ?",
+      "emoji": "🎁 RM35  −  💰 RM100",
+      "jawapan": 65,
+      "pilihan": [63, 64, 65, 66]
+    },
+    {
+      "id": 99,
+      "kategori": "wang",
+      "soalan": "Ayah bagi RM50. Beli buku cerita RM35. Baki = ?",
+      "emoji": "📖 RM35  −  💵 RM50",
+      "jawapan": 15,
+      "pilihan": [13, 14, 15, 16]
+    },
+    {
+      "id": 100,
+      "kategori": "wang",
+      "soalan": "Amir simpan RM20 sebulan. Dalam 4 bulan, jumlah = ?",
+      "emoji": "💰 RM20  x  4 bulan",
+      "jawapan": 80,
+      "pilihan": [78, 79, 80, 81]
+    }
+  ]
+}
