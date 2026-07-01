@@ -13,11 +13,11 @@ st.set_page_config(
 )
 
 # ─────────────────────────────────────────
-#  CSS TEMA ROBLOX — Dark Mode Gamer
+#  CSS TEMA ROBLOX — Dark Mode Gamer & 100% Mobile Friendly
 # ─────────────────────────────────────────
 st.markdown("""
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@700;900;1000&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght=700;900;1000&display=swap');
 
   /* ══ LATAR BELAKANG GELAP ROBLOX ══ */
   .stApp {
@@ -39,35 +39,37 @@ st.markdown("""
     z-index: 0;
   }
 
-  /* ══ LEBAR KANDUNGAN ══ */
+  /* ══ LEBAR KANDUNGAN & MARGIN UNTUK TELEFON ══ */
   .block-container {
     max-width: 1050px !important;
     margin: auto !important;
-    padding-top: 1.5rem !important;
+    padding-top: 1.0rem !important;
+    padding-left: clamp(10px, 3vw, 30px) !important;
+    padding-right: clamp(10px, 3vw, 30px) !important;
     position: relative;
     z-index: 1;
   }
 
-  /* ══ TAJUK UTAMA — Glow merah Roblox ══ */
+  /* ══ TAJUK UTAMA RESPONSIVE ══ */
   .tajuk-roblox {
     text-align: center;
     font-family: 'Fredoka One', sans-serif;
-    font-size: 3.6em;
+    font-size: clamp(2.0em, 8vw, 3.6em); /* Skala automatik mengikut skrin */
     font-weight: 900;
-    letter-spacing: 2px;
-    padding: 20px 10px 5px;
+    letter-spacing: 1px;
+    padding: 15px 5px 5px;
     background: linear-gradient(180deg, #ff4444 0%, #ffcc00 60%, #ff8800 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter: drop-shadow(0 0 18px rgba(255, 80, 0, 0.7));
+    filter: drop-shadow(0 0 12px rgba(255, 80, 0, 0.6));
     line-height: 1.1;
   }
   .tajuk-sub {
     text-align: center;
     font-family: 'Fredoka One', sans-serif;
-    font-size: 1.3em;
+    font-size: clamp(0.9em, 3.5vw, 1.3em);
     color: #aabbcc;
-    letter-spacing: 4px;
+    letter-spacing: clamp(2px, 1vw, 4px);
     text-transform: uppercase;
     margin-bottom: 6px;
   }
@@ -80,18 +82,18 @@ st.markdown("""
     margin: 12px 0 18px;
   }
 
-  /* ══ LEADERBOARD SCOREBOARD ══ */
+  /* ══ LEADERBOARD SCOREBOARD RESPONSIVE ══ */
   .leaderboard {
     background: linear-gradient(135deg, #1a0000 0%, #2a0808 50%, #1a0000 100%);
     border: 4px solid #ff3c3c;
     border-radius: 16px;
-    padding: 16px 28px;
+    padding: clamp(12px, 3vw, 24px) clamp(16px, 4vw, 28px);
     text-align: center;
     position: relative;
     overflow: hidden;
     box-shadow:
-      0 0 30px rgba(255, 60, 60, 0.5),
-      0 0 60px rgba(255, 60, 60, 0.2),
+      0 0 20px rgba(255, 60, 60, 0.4),
+      0 0 40px rgba(255, 60, 60, 0.15),
       inset 0 0 40px rgba(0, 0, 0, 0.6);
     margin-bottom: 18px;
   }
@@ -109,40 +111,40 @@ st.markdown("""
   }
   .leaderboard-title {
     font-family: 'Fredoka One', sans-serif;
-    font-size: 1.0em;
+    font-size: clamp(0.85em, 2.5vw, 1.0em);
     color: #ff6666;
-    letter-spacing: 5px;
+    letter-spacing: clamp(2px, 1vw, 5px);
     text-transform: uppercase;
     margin-bottom: 4px;
   }
   .leaderboard-score {
     font-family: 'Fredoka One', sans-serif;
-    font-size: 2.4em;
+    font-size: clamp(1.6em, 5.5vw, 2.4em);
     color: #ffd700;
     text-shadow:
-      3px 3px 0 #8b4500,
-      0   0 20px rgba(255, 215, 0, 0.8);
-    letter-spacing: 2px;
+      2px 2px 0 #8b4500,
+      0   0 15px rgba(255, 215, 0, 0.7);
+    letter-spacing: 1px;
   }
   .leaderboard-stars {
-    font-size: 1.8em;
-    letter-spacing: 4px;
+    font-size: clamp(1.2em, 4vw, 1.8em);
+    letter-spacing: 3px;
     margin-top: 4px;
   }
 
-  /* ══ BADGE KATEGORI ══ */
+  /* ══ BADGE KATEGORI RESPONSIVE ══ */
   .badge-kategori {
     display: inline-block;
-    padding: 8px 24px;
+    padding: 6px clamp(16px, 4vw, 24px);
     border-radius: 6px;
     font-family: 'Fredoka One', sans-serif;
-    font-size: 1.4em;
+    font-size: clamp(1.0em, 3.5vw, 1.4em);
     font-weight: 900;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    border-bottom: 5px solid rgba(0,0,0,0.4);
+    border-bottom: 4px solid rgba(0,0,0,0.4);
     text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
   }
 
@@ -154,29 +156,27 @@ st.markdown("""
   .stProgress > div > div {
     background: #1e1e2e !important;
     border: 2px solid #333355;
-    height: 20px !important;
+    height: 18px !important;
     border-radius: 10px;
   }
   .progress-text {
     text-align: center;
     font-family: 'Fredoka One', sans-serif;
-    font-size: 1.4em;
+    font-size: clamp(1.0em, 3.5vw, 1.4em);
     color: #aabbcc;
     letter-spacing: 2px;
     margin-bottom: 10px;
   }
 
-  /* ══ KOTAK SOALAN — Dioptimumkan untuk Kejelasan ══ */
+  /* ══ KOTAK SOALAN — Dioptimumkan sepenuhnya untuk Keterbacaan & Mudah Alih ══ */
   .kotak-soalan {
-    /* Latar belakang lebih gelap untuk kontras tinggi */
     background: linear-gradient(135deg, #050a10 0%, #0d131a 100%);
-    /* Border biru yang lebih lembut agar tidak menyilaukan */
     border: 4px solid #007ccc;
     border-radius: 20px;
-    padding: 35px 30px;
+    /* Lebar padding mengecil secara pintar mengikut skrin peranti */
+    padding: clamp(20px, 5vw, 35px) clamp(15px, 4vw, 30px);
     text-align: center;
     margin: 14px 0;
-    /* Mengurangkan keamatan bayang bersinar */
     box-shadow:
       0 0 20px rgba(0, 180, 255, 0.15),
       0 0 40px rgba(0, 180, 255, 0.05),
@@ -192,53 +192,51 @@ st.markdown("""
     pointer-events: none;
   }
   
-  /* 💡 PEMBETULAN UTAMA: MEMAKSA WARNA TEKS SOALAN ATAS LEBIH JELAS & TERANG 💡 */
+  /* TEKS PEMBAYANG ATAS SOALAN — Putih Terang & Stroke Tebal */
   .emoji-soalan {
     font-family: 'Fredoka One', 'Nunito', sans-serif !important;
-    font-size: 2.2em;
-    color: #ffffff !important; /* Memaksa warna tulisan putih cerah */
-    /* Garis sempadan hitam (Roblox Stroke effect) untuk keterbacaan maksimum */
+    font-size: clamp(1.5em, 5vw, 2.2em); /* Mengecil anggun di mobile */
+    color: #ffffff !important;
     text-shadow: 
       2.5px 2.5px 0px #000000, 
       0px 0px 8px rgba(0, 0, 0, 0.8);
-    letter-spacing: 1.5px;
-    line-height: 1.5;
+    letter-spacing: 1px;
+    line-height: 1.4;
   }
   
+  /* SOALAN UTAMA */
   .nombor-soalan {
     font-family: 'Fredoka One', sans-serif;
-    font-size: 4.0em;
+    font-size: clamp(2.2em, 9vw, 4.0em); /* Menghalang soalan melimpah keluar kad */
     font-weight: 900;
     color: #ffffff;
-    /* Mengurangkan glow kabur teks supaya huruf kelihatan tajam dan bersih */
     text-shadow:
       3px 3px 0 #002244,
       0   0 12px rgba(0, 180, 255, 0.35);
     margin-top: 12px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
   }
 
   /* ══ LABEL PILIHAN ══ */
   h3 {
     font-family: 'Fredoka One', sans-serif !important;
-    font-size: 2.0em !important;
+    font-size: clamp(1.4em, 5vw, 2.0em) !important;
     color: #ffcc00 !important;
     text-align: center !important;
-    letter-spacing: 2px !important;
+    letter-spacing: 1.5px !important;
     text-shadow: 2px 2px 0 #664400 !important;
   }
 
-  /* ══ BUTANG JAWAPAN — 3D Roblox Block ══ */
+  /* ══ BUTANG JAWAPAN — 3D Roblox Block Mobile-Friendly ══ */
   div.stButton > button {
     width: 100%;
-    padding: 22px 16px !important;
-    min-height: 120px !important;
+    /* Menggunakan saiz clamp untuk melaraskan padding butang mengikut saiz peranti */
+    padding: clamp(14px, 3.5vw, 22px) 12px !important;
+    min-height: clamp(90px, 16vw, 120px) !important;
     border-radius: 16px !important;
     border: none !important;
     color: #ffffff !important;
-    /* Warna latar — Hijau neon Roblox */
     background: linear-gradient(180deg, #00dd55 0%, #00aa33 100%) !important;
-    /* Kesan 3D — bayangan tebal bawah */
     box-shadow:
       0 10px 0 #005500,
       0 12px 25px rgba(0, 200, 80, 0.4) !important;
@@ -262,37 +260,37 @@ st.markdown("""
       0 5px 10px rgba(0,0,0,0.3) !important;
   }
 
-  /* PEMBETULAN UTAMA: MEMAKSA SAIZ FONT BUTTON YANG LEBIH BESAR & JELAS */
-  /* Kita sasarkan terus tag paragraf (p) dan span di dalam butang Streamlit */
+  /* MEMAKSA SAIZ FONT BUTTON YANG RESPONSif & FLUID */
   div.stButton > button p, 
   div.stButton > button span,
   div.stButton > button div {
     font-family: 'Fredoka One', sans-serif !important;
-    font-size: 2.5rem !important; /* Bertukar kepada saiz 3D yang amat besar */
+    /* Mengecil dengan lancar dari 40px (desktop) ke 26px (pada screen telefon 320px) */
+    font-size: clamp(1.6rem, 5.5vw, 2.5rem) !important;
     font-weight: 900 !important;
     line-height: 1.1 !important;
     color: #ffffff !important;
-    text-shadow: 3px 3px 0 rgba(0,0,0,0.5) !important;
-    letter-spacing: 2px !important;
+    text-shadow: 2.5px 2.5px 0 rgba(0,0,0,0.5) !important;
+    letter-spacing: 1.5px !important;
   }
 
-  /* RESPONSIVE DESIGN: Sesuai untuk paparan telefon bimbit */
-  @media (max-width: 768px) {
+  /* Penyesuaian khusus untuk telefon bimbit yang sangat kecil */
+  @media (max-width: 480px) {
+    div.stButton > button {
+      min-height: 85px !important;
+      padding: 10px 6px !important;
+    }
     div.stButton > button p, 
     div.stButton > button span,
     div.stButton > button div {
-      font-size: 1.8rem !important; /* Mengecil sedikit di telefon pintar agar tidak melimpah */
+      font-size: 1.5rem !important;
     }
-    div.stButton > button {
-      min-height: 95px !important;
-      padding: 12px 8px !important;
-    }
-    .tajuk-roblox {
-      font-size: 2.5em;
+    .leaderboard {
+      margin-bottom: 12px;
     }
   }
 
-  /* ══ BUTANG SETERUSNYA / CUBA LAGI — Biru Roblox ══ */
+  /* ══ BUTANG SETERUSNYA / NAVIGASI — Biru Roblox ══ */
   div.stButton > button[kind="primary"],
   .btn-next div.stButton > button {
     background: linear-gradient(180deg, #0099ff 0%, #0066cc 100%) !important;
@@ -301,55 +299,54 @@ st.markdown("""
       0 12px 25px rgba(0, 150, 255, 0.4) !important;
   }
 
-  /* ══ MAKLUM BALAS BETUL ══ */
+  /* ══ MAKLUM BALAS JAWAPAN RESPONSIVE ══ */
   .maklumbalas-betul {
     background: linear-gradient(135deg, #003300 0%, #004d00 100%);
     border: 4px solid #00ff55;
     border-radius: 18px;
-    padding: 28px 20px;
+    padding: clamp(16px, 4vw, 28px) 15px;
     text-align: center;
     color: #00ff55;
     font-family: 'Fredoka One', sans-serif;
-    font-size: 2.6em;
+    font-size: clamp(1.6em, 5.5vw, 2.6em);
     font-weight: 900;
     margin: 16px 0;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     box-shadow:
-      0 0 30px rgba(0, 255, 85, 0.5),
-      0 0 60px rgba(0, 255, 85, 0.2);
-    text-shadow: 0 0 20px rgba(0, 255, 85, 0.9);
+      0 0 20px rgba(0, 255, 85, 0.4),
+      0 0 40px rgba(0, 255, 85, 0.15);
+    text-shadow: 0 0 15px rgba(0, 255, 85, 0.8);
   }
 
-  /* ══ MAKLUM BALAS SALAH ══ */
   .maklumbalas-salah {
     background: linear-gradient(135deg, #2a0000 0%, #3d0000 100%);
     border: 4px solid #ff3c3c;
     border-radius: 18px;
-    padding: 28px 20px;
+    padding: clamp(16px, 4vw, 28px) 15px;
     text-align: center;
     color: #ff6666;
     font-family: 'Fredoka One', sans-serif;
-    font-size: 2.6em;
+    font-size: clamp(1.6em, 5.5vw, 2.6em);
     font-weight: 900;
     margin: 16px 0;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     box-shadow:
-      0 0 30px rgba(255, 60, 60, 0.5),
-      0 0 60px rgba(255, 60, 60, 0.2);
-    text-shadow: 0 0 15px rgba(255, 60, 60, 0.8);
+      0 0 20px rgba(255, 60, 60, 0.4),
+      0 0 40px rgba(255, 60, 60, 0.15);
+    text-shadow: 0 0 12px rgba(255, 60, 60, 0.8);
   }
 
-  /* ══ SKRIN TAMAT — Victory Screen ══ */
+  /* ══ SKRIN TAMAT — Victory Screen Responsive ══ */
   .skrin-tamat {
     text-align: center;
     background: linear-gradient(135deg, #0d0d1a 0%, #1a0a2e 50%, #0d0d1a 100%);
     border: 5px solid #ffd700;
     border-radius: 24px;
-    padding: 45px 35px;
+    padding: clamp(25px, 6vw, 45px) clamp(15px, 5vw, 35px);
     box-shadow:
-      0 0 40px rgba(255, 215, 0, 0.5),
-      0 0 80px rgba(255, 215, 0, 0.2),
-      inset 0 0 60px rgba(0,0,0,0.5);
+      0 0 30px rgba(255, 215, 0, 0.4),
+      0 0 60px rgba(255, 215, 0, 0.15),
+      inset 0 0 40px rgba(0,0,0,0.5);
     position: relative;
     overflow: hidden;
   }
@@ -364,36 +361,37 @@ st.markdown("""
   }
   .tamat-tajuk {
     font-family: 'Fredoka One', sans-serif;
-    font-size: 2.4em;
-    letter-spacing: 3px;
+    font-size: clamp(1.6em, 5.5vw, 2.4em);
+    letter-spacing: 2px;
     margin: 12px 0;
   }
   .tamat-skor {
     font-family: 'Fredoka One', sans-serif;
-    font-size: 5em;
+    font-size: clamp(3.0em, 12vw, 5.0em);
     color: #ffd700;
     text-shadow:
-      4px 4px 0 #664400,
-      0   0 30px rgba(255, 215, 0, 0.9);
-    letter-spacing: 4px;
+      3px 3px 0 #664400,
+      0   0 20px rgba(255, 215, 0, 0.8);
+    letter-spacing: 2px;
     margin: 10px 0;
   }
 
-  /* ══ REKOD SESI ══ */
+  /* ══ REKOD SESI SEMAKAN JAWAPAN ══ */
   .rekod-sesi {
     border-radius: 12px;
-    padding: 14px 20px;
-    margin-top: 12px;
+    padding: 12px 18px;
+    margin-top: 10px;
     font-family: 'Fredoka One', sans-serif;
-    font-size: 1.3em;
+    font-size: clamp(1.0em, 3.5vw, 1.3em);
     color: #ccdcec;
     text-align: left;
     border: 2px solid rgba(255,255,255,0.1);
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
   }
 
-  /* ══ SCROLLBAR gelap ══ */
-  ::-webkit-scrollbar { width: 8px; background: #0d0d14; }
+  /* ══ SCROLLBAR ══ */
+  ::-webkit-scrollbar { width: 6px; background: #0d0d14; }
   ::-webkit-scrollbar-thumb { background: #333355; border-radius: 4px; }
 
 </style>
