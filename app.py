@@ -166,18 +166,21 @@ st.markdown("""
     margin-bottom: 10px;
   }
 
-  /* ══ KOTAK SOALAN — Panel gelap bersinar ══ */
+  /* ══ KOTAK SOALAN — Dioptimumkan untuk Kejelasan ══ */
   .kotak-soalan {
-    background: linear-gradient(135deg, #0d1b2a 0%, #1a2a3a 100%);
-    border: 4px solid #00b4ff;
+    /* Latar belakang lebih gelap untuk kontras tinggi */
+    background: linear-gradient(135deg, #050a10 0%, #0d131a 100%);
+    /* Border biru yang lebih lembut agar tidak menyilaukan */
+    border: 4px solid #007ccc;
     border-radius: 20px;
     padding: 35px 30px;
     text-align: center;
     margin: 14px 0;
+    /* Mengurangkan keamatan bayang bersinar */
     box-shadow:
-      0 0 30px rgba(0, 180, 255, 0.35),
-      0 0 60px rgba(0, 180, 255, 0.15),
-      inset 0 0 40px rgba(0, 0, 0, 0.5);
+      0 0 20px rgba(0, 180, 255, 0.15),
+      0 0 40px rgba(0, 180, 255, 0.05),
+      inset 0 0 40px rgba(0, 0, 0, 0.7);
     position: relative;
   }
   .kotak-soalan::after {
@@ -185,7 +188,7 @@ st.markdown("""
     position: absolute;
     inset: 3px;
     border-radius: 17px;
-    border: 1px solid rgba(0,180,255,0.2);
+    border: 1px solid rgba(0, 180, 255, 0.1);
     pointer-events: none;
   }
   .emoji-soalan {
@@ -198,9 +201,10 @@ st.markdown("""
     font-size: 4.0em;
     font-weight: 900;
     color: #ffffff;
+    /* Mengurangkan glow kabur teks supaya huruf kelihatan tajam dan bersih */
     text-shadow:
-      3px 3px 0 #003366,
-      0   0 25px rgba(0, 180, 255, 0.9);
+      3px 3px 0 #002244,
+      0   0 12px rgba(0, 180, 255, 0.35);
     margin-top: 12px;
     letter-spacing: 3px;
   }
@@ -218,17 +222,11 @@ st.markdown("""
   /* ══ BUTANG JAWAPAN — 3D Roblox Block ══ */
   div.stButton > button {
     width: 100%;
-    font-family: 'Fredoka One', sans-serif !important;
-    font-size: 80px !important;
-    line-height: 1.1 !important;
-    font-weight: 900 !important;
-    padding: 30px 16px !important;
-    min-height: 150px !important;
+    padding: 22px 16px !important;
+    min-height: 120px !important;
     border-radius: 16px !important;
     border: none !important;
     color: #ffffff !important;
-    letter-spacing: 2px;
-    text-shadow: 3px 3px 0 rgba(0,0,0,0.5) !important;
     /* Warna latar — Hijau neon Roblox */
     background: linear-gradient(180deg, #00dd55 0%, #00aa33 100%) !important;
     /* Kesan 3D — bayangan tebal bawah */
@@ -253,6 +251,36 @@ st.markdown("""
     box-shadow:
       0 3px 0 #005500,
       0 5px 10px rgba(0,0,0,0.3) !important;
+  }
+
+  /* 💡 PEMBETULAN UTAMA: MEMAKSA SAIZ FONT BUTTON YANG LEBIH BESAR & JELAS */
+  /* Kita sasarkan terus tag paragraf (p) dan span di dalam butang Streamlit */
+  div.stButton > button p, 
+  div.stButton > button span,
+  div.stButton > button div {
+    font-family: 'Fredoka One', sans-serif !important;
+    font-size: 2.5rem !important; /* Bertukar kepada saiz 3D yang amat besar */
+    font-weight: 900 !important;
+    line-height: 1.1 !important;
+    color: #ffffff !important;
+    text-shadow: 3px 3px 0 rgba(0,0,0,0.5) !important;
+    letter-spacing: 2px !important;
+  }
+
+  /* RESPONSIVE DESIGN: Sesuai untuk paparan telefon bimbit */
+  @media (max-width: 768px) {
+    div.stButton > button p, 
+    div.stButton > button span,
+    div.stButton > button div {
+      font-size: 1.8rem !important; /* Mengecil sedikit di telefon pintar agar tidak melimpah */
+    }
+    div.stButton > button {
+      min-height: 95px !important;
+      padding: 12px 8px !important;
+    }
+    .tajuk-roblox {
+      font-size: 2.5em;
+    }
   }
 
   /* ══ BUTANG SETERUSNYA / CUBA LAGI — Biru Roblox ══ */
@@ -604,7 +632,7 @@ else:
             if idx + 1 < jumlah
             else "🏁  LIHAT KEPUTUSAN!  🏁"
         )
-        # Tukar warna butang ke biru untuk navigasi
+        # Warna biru khas navigasi dikekalkan & dipastikan bersaiz besar juga
         st.markdown("""
         <style>
         div.stButton > button {
